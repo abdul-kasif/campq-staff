@@ -1,4 +1,4 @@
-# 🚪 CampQ Staff Portal
+# CampQ Staff Portal
 
 [![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-blue)](frontend/)
 [![Backend](https://img.shields.io/badge/Backend-Ruby%20on%20Rails-red)](backend/)
@@ -8,7 +8,7 @@ A secure staff portal system built with modern web technologies.
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Project Structure](#-project-structure)
 - [Getting Started](#-getting-started)
@@ -24,7 +24,7 @@ A secure staff portal system built with modern web technologies.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 campq-staff/
@@ -36,14 +36,14 @@ campq-staff/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
-- ✅ Node.js v18+ (for frontend)
-- ✅ Ruby 3.0+ & Rails 7+ (for backend)
-- ✅ PostgreSQL (or SQLite for development)
-- ✅ Git
+- Node.js v18+ (for frontend)
+- Ruby 3.0+ & Rails 7+ (for backend)
+- PostgreSQL (or SQLite for development)
+- Git
 
 ---
 
@@ -69,11 +69,11 @@ bundle install
 rails db:setup  # or: rails db:create db:migrate
 ```
 
-💡 **Note:** Never work directly on the `main` branch. Always use `develop` as your base.
+ **Note:** Never work directly on the `main` branch. Always use `develop` as your base.
 
 ---
 
-## ▶️ Running the App
+## Running the App
 
 ### Backend (Rails API)
 
@@ -101,9 +101,9 @@ pnpm run dev
 ```
 ---
 
-## 🌲 Git Workflow
+## Git Workflow
 
-We follow a simplified Git Flow:
+follow a simplified Git Flow:
 
 ```
 main          ← Production (Abdul only)
@@ -115,7 +115,7 @@ feature/*   feature/login-api   feature/dashboard   (your branches)
 
 ---
 
-### ✅ Your Daily Steps
+### Daily Steps
 
 ```bash
 # 1. Get latest changes
@@ -141,13 +141,13 @@ git pull
 git branch -d feature/your-task-name
 ```
 
-📌 **Branch naming convention:**  
+**Branch naming convention:**  
 Examples → `feature/login-form`, `feature/api-user-profile`  
 Be descriptive and specific.
 
 ---
 
-## 🚫 Branching Rules
+## Branching Rules
 
 | Branch    | Who          | Purpose                   |
 |-----------|-------------|---------------------------|
@@ -155,29 +155,9 @@ Be descriptive and specific.
 | `develop` | PRs only    | Integration & testing     |
 | `feature/*` | Everyone  | Individual task branches  |
 
-🔐 **Protected Branches:** `main` and `develop` → No direct pushes. Always open a PR.
+**Protected Branches:** `main` and `develop` → No direct pushes. Always open a PR.
 
 ---
 
-## 🆘 Need Help?
-
-If you’re stuck, don’t guess. Just ask:
-
-```
-Hey Abdul, I’m stuck on [step/task] — can you help?
-```
-
-⏱️ I’ll respond within **1 hour**. No shame. No delay. We’re a team.
-
----
-
-## 💡 Pro Tips
-
-- Always pull the latest `develop` before starting work.
-- Commit **small and often**.
-- Test your feature locally before opening a PR.
-
----
-
-✨ Built with care by **Abdul Kasif**  
-📅 Last updated: **September 2025**
+Built with care by **Abdul Kasif**  
+Last updated: **January 2026**
